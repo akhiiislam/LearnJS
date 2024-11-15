@@ -1,3 +1,8 @@
-function createHelloWorld() {
-  console.log("Hello WOrld");
-}
+var createHelloWorld = function () {
+  return function () {
+    return "Hello World";
+  };
+};
+
+const f = createHelloWorld();
+console.log(f()); // "Hello World"
