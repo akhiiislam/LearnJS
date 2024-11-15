@@ -1,0 +1,12 @@
+//the mutation can be occured using try catch block 
+function constPI(){
+    "use strict"
+    const MATH_PI={PI:3.1416};
+
+try{
+    MATH_PI=99;
+}catch(ex){
+    return ex;
+}
+return MATH_PI;}
+console.log(constPI())

@@ -1,0 +1,12 @@
+//condition?if it is true:if it is false
+function ternaryop(a,b){
+    return a===b?true:false;
+}
+//console.log(ternaryop(1,1))
+//multiple condition
+//1st condition?true(1st result):false(check 2nd condition)?treu(result):false(3rd con)
+function multipleTernery(a,b,c){
+
+    return (a>b)&&(a>c)?a:(b>a)&&(b>c)?b:(c>a)&&(c>b)?c:"equal numbers";
+}
+console.log(multipleTernery(2,2,3))

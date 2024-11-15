@@ -1,0 +1,10 @@
+//it takes strings and return an integer
+function returnint(str){
+    return parseInt(str);
+}
+//console.log(returnint("56"))
+//parseInt with Radis(base 2/8 etc)
+function radisxtoint(str){
+    return parseInt(str,2);
+}
+console.log(radisxtoint("101111"))
